@@ -1,0 +1,111 @@
+div.contaner{
+    width: 100%;
+    background-color: #007765;
+	position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.header {
+    position: relative;
+    width: 1219px;
+	height: 84px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.list {
+    float: right;
+	margin-right: 55px;
+	margin-top: 10px;
+}
+.list > li {
+    display: inline;		
+    border-right:3px solid #f0f5f5;
+    /* position: relative;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF; */
+
+    color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	padding: 8px;
+  }
+  .list > li:last-child {
+    border-right: none;
+  }
+ul.list {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1.5em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    /* margin-inline-end: 0px; */
+    padding-inline-start: 40px;
+}
+ul, li {
+    list-style: none outside none;
+  }
+.header p {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    padding-left: 55px;
+    float:left;
+    }
+
+.jumbotron {
+    width: 100%;
+	box-sizing: border-box;
+	background-image: url('image-15.png');
+	background-size: cover;
+	padding-top: 160px;
+	padding-bottom: 160px;
+	background-position: center	center;
+}
+.jumbotron h2 {
+	color: #FFFFFF;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 84px;
+	text-align: center;
+}
+.problem p {
+    font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 37px;
+	color: #000000;
+}
+div.problem {
+    width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+	padding-left: 55px;
+    padding-right: 55px;
+}
+.problem h2{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	text-align: center;
+	color: #007765;
+}
+
